@@ -1,7 +1,7 @@
 {
-  "name": "redux-react boilerplate",
+  "name": "redux-react-boilerplate",
   "version": "1.0.0",
-  "description": "Redux-react template",
+  "description": "Redux-react-template",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
