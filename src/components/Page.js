@@ -3,8 +3,11 @@ import React, { PropTypes, Component } from 'react'
 export default class Page extends Component {
 
   onAddBtnClick() {
+    let inputValue = this.textInput.value;
+    inputValue != '' ?
     this.props.addText([...this.props.text,
-                        this.textInput.value]);
+                        inputValue]) : alert('empty string not allowed');
+    inputValue = '';
   }
 
   render() {
